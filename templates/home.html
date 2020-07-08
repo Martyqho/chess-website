@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Chess</title>
+  </head>
+  <body>
+    <h1>Welcome, {{username}}</h1>
+    <button type="button" onclick="window.location.href='/live'" name="button"style="font-size: 50px">PLAY</button>
+    {% if username == "Unknown"%}
+      <p>Don't Want to be Unknown?</p>
+      <a href="/login">Log in</a>
+      {% endif %}
+  </body>
+</html>

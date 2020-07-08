@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+.box {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: cornsilk;
+    font-size: 80px;
+    vertical-align: middle;
+    text-shadow: black 0px 0px 3px;
+    color: white;
+}
+
+.box.black {
+  background: chocolate;
+}
+
+.piece.black {
+  color: black;
+}
